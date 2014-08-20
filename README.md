@@ -37,13 +37,13 @@ Believe it or not **we use the clipboard the same way since the 70s**. Yes, we'v
 - customizable concurrency per script
 - fully-asynchronous scripts : each *clipboard change* events are duplicated for each script, queued, and then consumed asynchronously
 
-# How do I install it?
+## How do I install it?
 
 ```
 npm install dot-clipboard -g
 ```
 
-# How do I write my first script?
+## How do I write my first script?
 
 - Start `dot-clipboard`
 - Open `~/.dot-clipboard`, and save the following `myScript.js`:
@@ -71,11 +71,11 @@ My first script got new clipboard data : test
 
 - You can now edit/rename `myScript.js` and it will be automatically removed/reload inside `dot-clipboard`.
 
-# I don't like `~/.dot-clipboard`, how can I change it?
+## I don't like `~/.dot-clipboard`, how can I change it?
 
 The scripts localization is customizable with the `DOT_CLIPBOARD_DIR` environment variable.
 
-# I want to help!
+## I want to help!
 
 Great! Here are some of the most asked features:
 
