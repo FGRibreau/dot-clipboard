@@ -3,11 +3,11 @@
 
 # What is it?
 
-*dot-clipboard* - a daemon that runs scripts from `~/.dot-clipboard` each time the clipboard content change.
+*dot-clipboard* monitor your clipboard and runs user-defined scripts based on the clipboard content.
 
-### Sorry... what?
+### I am not a child, what is it?
 
-*dot-clipboard* monitor your clipboard and runs user-defined scripts depending on the clipboard content.
+*dot-clipboard* is a nodejs daemon that runs javascript scripts located in `~/.dot-clipboard` each time the clipboard content change.
 
 ### Ok... but why?
 
@@ -37,7 +37,13 @@ Believe it or not **we use the clipboard the same way since the 70s**. Yes, we'v
 - customizable concurrency per script
 - fully-asynchronous scripts : each *clipboard change* events are duplicated for each script, queued, and then consumed asynchronously
 
-# How do I write a script ?
+# How do I install it?
+
+```
+npm install dot-clipboard -g
+```
+
+# How do I write my first script?
 
 - Start `dot-clipboard`
 - Open `~/.dot-clipboard`, an save the above `myScript.js` file inside it.
