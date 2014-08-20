@@ -60,6 +60,7 @@ module.exports = {
     f();// we're done
   }
 };
+```
 
 - Dot-clipboard should trigger a desktop notification saying that it loaded the module
 - Try to copy something, you should see a new line inside the console, for instance:
