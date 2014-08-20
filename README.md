@@ -69,7 +69,7 @@ module.exports = {
 My first script got new clipboard data : test
 ```
 
-- You can now edit/rename `myScript.js` and it will be automatically removed/reload inside `dot-clipboard`.
+- You can now edit/rename `myScript.js` and it will be automatically removed/reloaded inside `dot-clipboard`.
 
 ## I don't like `~/.dot-clipboard`, how can I change it?
 
