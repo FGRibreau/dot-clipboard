@@ -1,0 +1,15 @@
+{
+  "name": "dot-clipboard",
+  "version": "1.0.0",
+  "description": ".clipboard - a daemon that runs scripts from `~/.dot-clipboard` each time the clipboard content change",
+  "main": "index.js",
+  "author": "Francois-Guillaume Ribreau <npm@fgribreau.com> (http://fgribreau.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^0.9.0",
+    "clipboard-watcher": "0.0.3",
+    "growl": "^1.8.1",
+    "lodash": "^2.4.1",
+    "walker": "~1.0.6"
+  }
+}
