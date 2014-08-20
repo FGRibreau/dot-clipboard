@@ -19,16 +19,16 @@ Believe it or not **we use the clipboard the same way since the 70s**. Yes, we'v
 
 *dot-clipboard* brings the power of automation to a whole new level. Now each time you **copy** something you will be able to automatically trigger anything, depending on your workflow.
 
-<p align="center">
-<img src="https://dl.dropboxusercontent.com/u/3892/gif/knailed-it/ironman-stark-awesome-epic-giphy%20%281%29.gif"/>
-</p>
-
 ### Yeah... but why?
 
 - You share a lot of gif though github, hipchat or skype ? Automatically backup them to your own public gif folder in dropbox when doing so. See [examples/download-gif.js](/examples/download-gif.js).
 - Automatically *backup* a youtube/dailymotion video inside a folder just by copying the link.
 - Minify links from clipboard on the fly. Change the clipboard content with a minified link\*
 - Automatically convert Spotify/Deezer/Grooveshark links to Youtube equivalent\*
+
+<p align="center">
+<img src="https://dl.dropboxusercontent.com/u/3892/gif/knailed-it/ironman-stark-awesome-epic-giphy%20%281%29.gif"/>
+</p>
 
 ### Wow that's awesome! What more does it do?
 
