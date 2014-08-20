@@ -16,7 +16,7 @@ module.exports = {
   // Options
   options: {
     // gif output directory (you should definitely change this)
-    outputDir: '/Users/fg/Dropbox/Public/gif',
+    outputDir: path.resolve(process.env.HOME, '/Dropbox/Public'),
     tmpOutputDir: os.tmpdir(),
 
     // should we ask you for tagging the gif
@@ -36,9 +36,9 @@ module.exports = {
    Steps
    -----
 
-   1 - download the gif
+   1 - download the gif inside a temporary folder
     2 - generate a sha1 of the gif
-    3 - check that it does not exist in output dir
+    3 - check that it does not exist in `options.outputDir`
       4 - If it exists : stop there
       4 - If it does not exist :
         5 - ask for tags
