@@ -46,7 +46,7 @@ npm install dot-clipboard -g
 # How do I write my first script?
 
 - Start `dot-clipboard`
-- Open `~/.dot-clipboard`, an save the above `myScript.js` file inside it.
+- Open `~/.dot-clipboard`, and save the following `myScript.js`:
 
 ```javascript
 module.exports = {
@@ -62,6 +62,12 @@ module.exports = {
 };
 
 - Dot-clipboard should trigger a desktop notification saying that it loaded the module
+- Try to copy something, you should see a new line inside the console, for instance:
+
+```
+My first script got new clipboard data : test
+```
+
 - You can now edit/rename `myScript.js` and it will be automatically removed/reload inside `dot-clipboard`.
 
 # I don't like `~/.dot-clipboard`, how can I change it?

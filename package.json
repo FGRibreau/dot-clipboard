@@ -1,6 +1,6 @@
 {
   "name": "dot-clipboard",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "description": ".clipboard - a daemon that runs scripts from `~/.dot-clipboard` each time the clipboard content change",
   "main": "index.js",
   "keywords": ["clipboard", "workflow", "automation"],
@@ -8,7 +8,7 @@
   "author": "Francois-Guillaume Ribreau <npm@fgribreau.com> (http://fgribreau.com/)",
   "license": "MIT",
   "preferGlobal": true,
-  "bin":"./index.js",
+  "bin":"./bin/dot-clipboard.js",
   "repository" :{
       "type" : "git"
     , "url" : "https://github.com/FGRibreau/dot-clipboard.git"
