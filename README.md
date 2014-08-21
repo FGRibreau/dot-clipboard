@@ -21,7 +21,7 @@ Believe it or not **we use the clipboard the same way since the 70s**. Yes, we'v
 
 ### Yeah... but why?
 
-- You share a lot of gif though github, hipchat or skype ? Automatically backup them to your own public gif folder in dropbox when doing so. See [examples/download-gif.js](/examples/download-gif.js).
+- You share a lot of gif though github, hipchat or skype ? Automatically *backup* them to your own public gif folder in dropbox when doing so. See [examples/download-gif.js](/examples/download-gif.js).
 - Automatically *backup* a youtube/dailymotion video inside a folder just by copying the link.
 - Minify links from clipboard on the fly. Change the clipboard content with a minified link\*
 - Automatically convert Spotify/Deezer/Grooveshark links to Youtube equivalent\*
@@ -81,7 +81,7 @@ The scripts localization is customizable with the `DOT_CLIPBOARD_DIR` environmen
 
 Great! Here are some of the most asked features:
 
-- Expose a clipboard write api to scripts. \* this feature is required.
+- Expose a clipboard to write api to scripts. \* this feature is required.
 - Multi-platform support (**currently only *OSX* is supported**)
 
 ## Alternatives
