@@ -43,6 +43,8 @@ Believe it or not **we use the clipboard the same way since the 70s**. Yes, we'v
 npm install dot-clipboard -g
 ```
 
+Note: It will automatically install two scripts: [download-gif.js](/examples/download-gif.js) and [growl.js](/examples/growl.js) as well as their dependencies (`request`, `async` and `growl`).
+
 ## How do I write my first script?
 
 - Start `dot-clipboard`
