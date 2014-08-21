@@ -3,7 +3,7 @@
 
 # What is it?
 
-*dot-clipboard* monitor your clipboard and runs user-defined scripts based on the clipboard content.
+*dot-clipboard* monitors your clipboard and runs user-defined scripts based on the clipboard content.
 
 ### I am not a child, what is it?
 
