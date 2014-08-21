@@ -88,7 +88,7 @@ Great! Here are some of the most asked features:
 
 - [CopyQ](https://github.com/hluk/CopyQ) A clipboard manager with searchable and editable history. (Cpp, QT)
 - [Klipper](https://userbase.kde.org/Klipper) KDE clipboard utility
-
+- [ClipMenu](https://github.com/naotaka/ClipMenu) A clipboard manager for Mac OS X
 
 -------------------------
 
