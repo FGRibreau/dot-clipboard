@@ -1,6 +1,6 @@
 {
   "name": "dot-clipboard",
-  "version": "1.1.3",
+  "version": "1.2.0",
   "description": ".clipboard - a daemon that runs scripts from `~/.dot-clipboard` each time the clipboard content change",
   "main": "index.js",
   "keywords": ["clipboard", "workflow", "automation"],
@@ -18,7 +18,7 @@
   },
   "contributors": [],
   "scripts": {
-    "postinstall": "mkdir -p ~/.dot-clipboard;cp -n -R -v ./examples/ ~/.dot-clipboard;exit 0"
+    "postinstall": "mkdir -p ~/.clipboard;cp -n -R -v ./examples/ ~/.clipboard;exit 0"
   },
   "dependencies": {
     "async": "^0.9.0",

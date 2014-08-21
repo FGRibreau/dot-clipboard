@@ -7,7 +7,7 @@
 
 ### I am not a child, what is it?
 
-*dot-clipboard* is a nodejs daemon that runs javascript scripts located in `~/.dot-clipboard` each time the clipboard content change.
+*dot-clipboard* is a nodejs daemon that runs javascript scripts located in `~/.clipboard` each time the clipboard content change.
 
 ### Ok... but why?
 
@@ -32,7 +32,7 @@ Believe it or not **we use the clipboard the same way since the 70s**. Yes, we'v
 
 ### Wow that's awesome! What more does it do?
 
-- automatically load scripts located inside `~/.dot-clipboard`
+- automatically load scripts located inside `~/.clipboard`
 - automatically reload scripts when changed/renamed
 - customizable concurrency per script
 - fully-asynchronous scripts : each *clipboard change* events are duplicated for each script, queued, and then consumed asynchronously
@@ -46,7 +46,7 @@ npm install dot-clipboard -g
 ## How do I write my first script?
 
 - Start `dot-clipboard`
-- Open `~/.dot-clipboard`, and save the following `myScript.js`:
+- Open `~/.clipboard`, and save the following `myScript.js`:
 
 ```javascript
 module.exports = {
@@ -71,7 +71,7 @@ My first script got new clipboard data : test
 
 - You can now edit/rename `myScript.js` and it will be automatically removed/reloaded inside `dot-clipboard`.
 
-## I don't like `~/.dot-clipboard`, how can I change it?
+## I don't like `~/.clipboard`, how can I change it?
 
 The scripts localization is customizable with the `DOT_CLIPBOARD_DIR` environment variable.
 
