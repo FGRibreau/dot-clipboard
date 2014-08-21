@@ -3,12 +3,17 @@
  * MAC OSX ONLY
  */
 
-// npm install request
-var request    = require('request');
+// npm install request async
+try{
+  var request    = require('request');
+  var async      = require('async');
+}catch(err){
+  console.error("[Error] '%s' requires the 'request async' packages to work", __filename);
+  console.error("[Error] run 'cd %s && npm install request async' and restart dot-clipboard (or edit download-gif.js).", __dirname);
+}
 var exec       = require('child_process').exec;
 var crypto     = require('crypto');
 var os         = require('os');
-var async      = require('async');
 var path       = require('path');
 var fs         = require('fs');
 
