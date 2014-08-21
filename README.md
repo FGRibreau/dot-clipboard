@@ -84,6 +84,12 @@ Great! Here are some of the most asked features:
 - Expose a clipboard write api to scripts. \* this feature is required.
 - Multi-platform support (**currently only *OSX* is supported**)
 
+## Alternatives
+
+- [CopyQ](https://github.com/hluk/CopyQ) A clipboard manager with searchable and editable history. (Cpp, QT)
+- [Klipper](https://userbase.kde.org/Klipper) KDE clipboard utility
+
+
 -------------------------
 
 ### Please please, show me the boring license stuff!
