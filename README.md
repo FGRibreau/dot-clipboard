@@ -43,6 +43,8 @@ Believe it or not **we use the clipboard the same way since the 70s**. Yes, we'v
 npm install dot-clipboard -g
 ```
 
+NB : you will need http://alcatraz.io/ setup in your xcode
+
 ## How do I write my first script?
 
 - Start `dot-clipboard`
