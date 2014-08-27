@@ -21,7 +21,7 @@ module.exports = {
   // Options
   options: {
     // gif output directory (you should definitely change this)
-    outputDir: path.resolve(process.env.HOME, '/Dropbox/Public'),
+    outputDir: path.resolve(process.env.HOME, 'Dropbox/Public'),
     tmpOutputDir: os.tmpdir(),
 
     // should we ask you for tagging the gif
