@@ -77,6 +77,11 @@ My first script got new clipboard data : test
 
 The scripts localization is customizable with the `DOT_CLIPBOARD_DIR` environment variable.
 
+## How do I setup dot-clipboard as a deamon?
+
+On OS X you can use `launchd`. Take a look at this [example of .plist for dot-clipboard](https://gist.github.com/danzimm/c0aed9a3b2c6897b4cc8).
+
+
 ## I want to help!
 
 Great! Here are some of the most asked features:
