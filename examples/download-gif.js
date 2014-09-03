@@ -139,7 +139,7 @@ function gifNameComparator(options){
  */
 function askForTags(options, gifLink, f){
   if(!options.askForTags){
-    return f();
+    return f(null, '');
   }
 
   var promptTitle = 'Enter tags (separated by \'-\') for gif ('+gifLink+')';
