@@ -14,7 +14,7 @@
 Believe it or not **we use the clipboard the same way since the 70s**. Yes, we've copy/pasted stuff the same way for 40 years! Well, until now. 
 
 <p align="center">
-<img src="https://dl.dropboxusercontent.com/u/3892/gif/noob.gif"/>
+<img src="./docs/noob.gif"/>
 </p>
 
 *dot-clipboard* brings the power of automation to a whole new level. Now each time you **copy** something you will be able to automatically trigger anything, depending on your workflow.
@@ -27,7 +27,7 @@ Believe it or not **we use the clipboard the same way since the 70s**. Yes, we'v
 - Automatically convert Spotify/Deezer/Grooveshark links to Youtube equivalent\*
 
 <p align="center">
-<img src="https://dl.dropboxusercontent.com/u/3892/gif/knailed-it/ironman-stark-awesome-epic-giphy%20%281%29.gif"/>
+<img src="./docs/ironman-stark.gif"/>
 </p>
 
 ### Wow that's awesome! What more does it do?
