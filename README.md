@@ -1,3 +1,5 @@
+[![Deps](https://david-dm.org/FGRibreau/dot-clipboard.png)](https://david-dm.org/FGRibreau/dot-clipboard) [![Version](http://badge.fury.io/js/dot-clipboard.png)](http://badge.fury.io/js/dot-clipboard) [![Downloads](http://img.shields.io/npm/dm/dot-clipboard.svg)](https://www.npmjs.com/package/dot-clipboard)
+
 .clipboard (dot-clipboard)
 ==========================
 
