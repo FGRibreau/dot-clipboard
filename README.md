@@ -1,4 +1,4 @@
-[![Deps](https://david-dm.org/FGRibreau/dot-clipboard.png)](https://david-dm.org/FGRibreau/dot-clipboard) [![Version](http://badge.fury.io/js/dot-clipboard.png)](http://badge.fury.io/js/dot-clipboard) [![Downloads](http://img.shields.io/npm/dm/dot-clipboard.svg)](https://www.npmjs.com/package/dot-clipboard)
+[![Deps](https://david-dm.org/FGRibreau/dot-clipboard.png)](https://david-dm.org/FGRibreau/dot-clipboard) [![Version](http://badge.fury.io/js/dot-clipboard.png)](http://badge.fury.io/js/dot-clipboard) [![Downloads](http://img.shields.io/npm/dm/dot-clipboard.svg)](https://www.npmjs.com/package/dot-clipboard) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/fgribreau?utm_source=github&utm_medium=button&utm_term=fgribreau&utm_campaign=github) 
 
 .clipboard (dot-clipboard)
 ==========================
